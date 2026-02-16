@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A020F0"/>
+      <stop offset="50%" style="stop-color:#6739C6"/>
+      <stop offset="100%" style="stop-color:#4040BF"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="url(#purpleGradient)"/>
+  <!-- BTS Army Logo inspired heart shape -->
+  <path d="M256 420 
+           C180 360 100 300 100 220 
+           C100 160 150 110 210 110 
+           C240 110 256 130 256 130 
+           C256 130 272 110 302 110 
+           C362 110 412 160 412 220 
+           C412 300 332 360 256 420Z" 
+        fill="white" 
+        opacity="0.95"/>
+  <!-- Inner purple heart accent -->
+  <path d="M256 380 
+           C200 335 140 285 140 225 
+           C140 180 175 145 215 145 
+           C240 145 256 160 256 160 
+           C256 160 272 145 297 145 
+           C337 145 372 180 372 225 
+           C372 285 312 335 256 380Z" 
+        fill="#A020F0" 
+        opacity="0.3"/>
+  <!-- A letter for ARMY -->
+  <text x="256" y="290" 
+        font-family="Arial Black, sans-serif" 
+        font-size="120" 
+        font-weight="900" 
+        fill="#A020F0" 
+        text-anchor="middle">A</text>
+</svg>
